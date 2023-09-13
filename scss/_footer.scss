@@ -1,0 +1,107 @@
+.contact {
+  width: 100%;
+  background-image: url(../images/contact-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 55px 150px 51px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 55px;
+}
+
+.fff {
+  color: #fff;
+}
+
+.contact-title__miniwrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 55px;
+}
+
+.section {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 42px;
+
+  .phone {
+    color: #fff;
+    font-family: $main-font;
+    letter-spacing: -0.32px;
+  }
+
+  .number {
+    color: #a9a9aa;
+    font-family: $main-font;
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    text-decoration: none;
+  }
+}
+
+.contact__social {
+  display: flex;
+  gap: 28px;
+}
+
+.card2__info {
+  color: #fff;
+  font-family: $anton-font;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.card2__info2 {
+  color: #fe390c;
+  font-family: $anton-font;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+label {
+  color: #fff;
+  font-family: $main-font;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+}
+
+input {
+  margin-top: 64px;
+}
+
+.copyright {
+  width: 100%;
+  background-color: black;
+  padding: 30px;
+}
+
+.copyright > p {
+  color: #a9a9aa;
+  text-align: center;
+  font-family: $main-font;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.56px;
+}
+
+.card2__btn {
+  color: #fff;
+  font-family: $main-font;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 50px;
+  border-radius: 4px;
+  background: #fe390c;
+  padding: 16px 24px;
+  border: none;
+  transition: 0.4s;
+}
+
+.card2__btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
